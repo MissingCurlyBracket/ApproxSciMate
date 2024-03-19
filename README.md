@@ -1,2 +1,2 @@
 # ApproxSciMate
-A python library for approximating 
+A python library for approximating SciPy functions.
