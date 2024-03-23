@@ -1,5 +1,8 @@
 .idea/
 
+validation/energibridge
+validation/LibreHardwareMonitor.sys
+
 # dotenv
 .env
 
