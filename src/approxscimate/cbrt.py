@@ -1,10 +1,10 @@
-import numpy as np
+import scipy.special as sp
 
 
 def cbrt(n, level=0):
     """
     Approximates the cube root of each element in the input array x with different levels of accuracy.
-    Level=0 uses numpy's cbrt function for the highest accuracy.
+    Level=0 uses scipy's cbrt function for the highest accuracy.
     Level=1 uses Halleys's method of simple approximation of cube root for moderate accuracy.
     Level=2 uses Newton's method of simple approximation of cube root for low accuracy.
     :param n: integer
@@ -12,7 +12,7 @@ def cbrt(n, level=0):
     :return: integer
     """
     if level == 0:
-        return np.cbrt(n)
+        return sp.cbrt(n)
     elif level == 1:
         return halleys_method(n)
     elif level == 2:
