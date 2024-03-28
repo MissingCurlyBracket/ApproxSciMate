@@ -27,8 +27,8 @@ defined **level** of accuracy.
 * `level = 0` : The default SciPy `comb` function providing maximum accuracy.
 * `level = 1` : The approximated **lower** bound of the calculation.
 * `level = 2` : The approximated **upper** bound of the calculation.
-* `level = 3` : Uses Stirling's method of approximating factorials when **n** is
-  very large.
+* `level = 3` : Uses Stirling's method of approximating factorials which
+  converges to the real value when **n** is very large.
 
 ### `perm(n, k, level=0)`
 
@@ -39,5 +39,5 @@ defined **level** of accuracy.
 * `level = 0` : The default SciPy `perm` function providing maximum accuracy.
 * `level = 1` : The approximated **lower** bound of the calculation.
 * `level = 2` : The approximated **upper** bound of the calculation.
-  *`level = 3` : Uses Stirling's method of approximating factorials when **n** is
-  very large.
+* `level = 3` : Uses Stirling's method of approximating factorials which
+  converges to the real value when **n** is very large.
