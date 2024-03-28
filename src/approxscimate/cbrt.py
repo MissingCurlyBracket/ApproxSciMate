@@ -19,7 +19,7 @@ def cbrt(n, level=0):
         return newtons_method(n)
 
 
-def newtons_method(x, max_iterations=10):
+def newtons_method(x, max_iterations=7):
     """
     Simple approximation of cube root using Newton's method.
     """
@@ -32,7 +32,7 @@ def newtons_method(x, max_iterations=10):
     return guess
 
 
-def halleys_method(x, max_iterations=10):
+def halleys_method(x, max_iterations=7):
     """
     Simple approximation of cube root using Halley's method.
     """

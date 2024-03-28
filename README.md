@@ -41,5 +41,3 @@ defined **level** of accuracy.
 * `level = 2` : The approximated **upper** bound of the calculation.
   *`level = 3` : Uses Stirling's method of approximating factorials when **n** is
   very large.
-* `level = 4` : Approximation for low values of **k**.
-* `level = 5` : Approximation for close values of **n** and **k**.
